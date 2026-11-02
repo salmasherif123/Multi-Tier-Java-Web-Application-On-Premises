@@ -1,0 +1,14 @@
+vcd_url = "https://vcd.example.com/api"
+vcd_org = "Org Name"
+vcd_vdc = "VDC Name"
+
+catalog_name  = "Catalog Name"
+template_name = "Temp-OS-Ubuntu-24"
+network_name  = "Network Name"
+
+vms = {
+  "DB" = {cpus = 2, memory = 4096, ip = "x.x.x.13" }
+  "Web" = {cpus = 2, memory = 4096, ip = "x.x.x.12" }
+  "App" = {cpus = 4, memory = 8192, ip = "x.x.x.11" }
+  "MQCache" = {cpus = 4, memory = 8192, ip = "x.x.x.14" }
+}
